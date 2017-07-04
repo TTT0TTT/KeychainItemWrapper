@@ -49,6 +49,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for KeychainItemWrapper.
+FOUNDATION_EXPORT double KeychainItemWrapperVersionNumber;
+
+//! Project version string for KeychainItemWrapper.
+FOUNDATION_EXPORT const unsigned char KeychainItemWrapperVersionString[];
+
 /*
     The KeychainItemWrapper class is an abstraction layer for the iPhone Keychain communication. It is merely a 
     simple wrapper to provide a distinct barrier between all the idiosyncracies involved with the Keychain
